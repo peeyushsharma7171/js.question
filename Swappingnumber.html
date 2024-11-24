@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Questions</h2>
+<p id="Beforeswap"></p>
+<p id="Afterswap"></p>
+
+<script>
+//5// Swapping two variables...
+
+let m = 10;
+let n = 20;
+
+document.getElementById("Beforeswap").innerHTML = "m : "+ m +" n : "+ n ;
+
+m = m + n;
+n = m - n;
+m = m - n;
+
+document.getElementById("Afterswap").innerHTML = "m : "+ m +" n : "+ n ;
+
+
+
+</script>
+
+</body>
+</html>
+
