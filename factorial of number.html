@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Factorial</title>
+	
+</head>
+<body>
+	<p>Give the factorial of a given number.</p>
+	<p id="demo"></p>
+	<script>
+		let number = 6, fact = 1;
+
+		for(let i = number; i > 0 ; i--) {
+			fact = fact * i;
+		}
+		document.getElementById("demo").innerHTML = "The factorial of the "+ number +" number is : "+ fact;
+	</script>
+</body>
+</html>
