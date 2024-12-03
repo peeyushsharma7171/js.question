@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Largest Number</title>
+	<p>Find the largest number from 3 numbers.</p>
+	<p id="demo"></p>
+</head>
+<body>
+<script>
+	let x=6000 , y=600, z=6000;
+
+	// large = 0;
+	// if(large < x){
+	// 	if(large < y){
+	// 		if(large < z){
+	// 			document.getElementById("demo").innerHTML = "Largest number is " + z;
+	// 		}
+	// 		else {
+	// 			document.getElementById("demo").innerHTML = "Largest number is " + y;
+	// 		}
+	// 	}
+	// 	else {
+	// 		document.getElementById("demo").innerHTML = "Largest number is " + x;
+	// 	}
+
+	// } else if(large)
+
+	if(x >= y){
+		if(x >= z) {
+			document.getElementById("demo").innerHTML = x + " is largest number."
+		} else {
+			document.getElementById("demo").innerHTML = z + " is largest number."
+		}
+	} else {
+		if(y >= z){
+			document.getElementById("demo").innerHTML = y + " is largest number."
+		} else {
+			document.getElementById("demo").innerHTML = z + " is largest number."
+		}
+	}
+
+</script>
+</body>
+</html>
