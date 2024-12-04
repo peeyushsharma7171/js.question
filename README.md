@@ -14,5 +14,19 @@
 13. JavaScript Program to Check Prime Number
 14. JavaScript Program to Print All Prime Numbers in an Interval
 15. JavaScript Program to Find the Factorial of a Number
- 
+ 16. JavaScript Program to Display the Multiplication Table
+17. JavaScript Program to Print the Fibonacci Sequence
+18. JavaScript Program to Check Armstrong Number
+19. JavaScript Program to Find Armstrong Number in an Interval
+20. JavaScript Program to Make a Simple Calculator
+21. JavaScript Program to Find the Sum of Natural Numbers
+22. JavaScript Program to Check if the Numbers Have Same Last Digit
+23. JavaScript Program to Find HCF or GCD
+24. JavaScript Program to Find LCM
+25. JavaScript Program to Find the Factors of a Number
+26. JavaScript Program to Find Sum of Natural Numbers Using Recursion
+27. JavaScript Program to Guess a Random Number
+28. JavaScript Program to Shuffle Deck of Cards
+29. JavaScript Program to Display Fibonacci Sequence Using Recursion
+30. JavaScript Program to Find Factorial of Number Using Recursion
  
