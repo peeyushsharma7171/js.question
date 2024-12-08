@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Armstrong Interval</title>
+</head>
+<body>
+	<p>Armstrong Numbers in an Given Interval.</p>
+	<p id="demo"></p>
+	<script>
+		let startpoint = 400;
+		let endpoint = 450;
+		let text = "";
+		
+
+		for(let i = startpoint ; i <= endpoint ; i++){
+			number = i;
+			if(number.toString().length==1){
+				text += number + " is a Armstrong number.</br>";
+			} else if(number.toString().length==3){
+				temp = number;
+			    m = temp%10;
+		    	temp = (temp-m)/10;
+			    n = temp%10;
+		    	temp = (temp-n)/10;
+		    	o = temp;
+		    	newnumber = m**3 + n**3 + o**3;	
+
+		    	if(newnumber == number) {
+		    		text += number + " is a Armstrong number.</br>";
+		    		//document.getElementById("demo").innerHTML = number + " is a Armstrong number."
+		    	} else {
+		    		//document.getElementById("demo").innerHTML = number + " is not a Armstrong number."
+		    	}
+		   	} else {
+				//break;
+				// document.getElementById("demo").innerHTML = "This is not a Armstrong number"
+			}
+			
+		}
+
+		document.getElementById("demo").innerHTML = text;
+
+
+
+		// for
+		// 	number = Number(document.getElementById("num1").value);
+		// 	
+	</script>
+</body>
+</html>
