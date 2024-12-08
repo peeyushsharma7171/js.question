@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Natural Sum Recursion</title>
+</head>
+<body>
+	<p>Find the sum using recursion.</p>
+	<p id="demo"></p>
+	<script>
+		var num1=10;
+		var num2=20;
+
+		function isNatural(num1,num2) {
+			if(num1%10==0 && num2%10==0){
+				return num1+num2;
+			} else {
+				return "Numbers are not natural."
+			}
+		}
+
+		document.getElementById("demo").innerHTML = isNatural(num1,num2);
+	</script>
+</body>
+</html>
