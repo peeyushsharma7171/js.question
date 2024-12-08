@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Factors</title>
+</head>
+<body>
+	<p>Find factors of the given number.</p>
+	<p id="demo"></p>
+	<script>
+		let num = 1000;
+		let text = "";
+		for(let i = 1 ; i <= num ; i++) {
+			if(num%i==0) {
+				text += i + "</br>";
+			}
+		}
+
+		document.getElementById("demo").innerHTML = text;
+	</script>
+</body>
+</html>
