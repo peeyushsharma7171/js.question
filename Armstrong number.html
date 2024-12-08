@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Armstrong Number</title>
+</head>
+<body>
+	<p>Check wether given number is armstrong or not.</br>Only for 3 Digit numbers</p>
+	<input type="number" id="num1">
+	<button type="button" onclick="isArmstrong()" style="background-color: skyblue;">Check</button>
+	<p id="demo" style="color: darkred;"></p>
+	<script>
+		let number,temp,m,n,o,newnumber;
+		
+		function getData(){
+			number = Number(document.getElementById("num1").value);
+			temp = number;
+			m = temp%10;
+			temp = (temp-m)/10;
+			n = temp%10;
+			temp = (temp-n)/10;
+			o = temp;
+			newnumber = m**3 + n**3 + o**3;	
+		}		
+		
+		function isArmstrong(){
+			getData();
+			if(newnumber == number) {
+				document.getElementById("demo").innerHTML = number + " is a Armstrong number."
+			} else {
+				document.getElementById("demo").innerHTML = number + " is not a Armstrong number."
+			}
+		
+		}
+
+		
+
+
+	</script>
+</body>
+</html>
