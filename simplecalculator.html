@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>simple calculator</title>
+	<body>
+	<p>Enter two values and select the operation.</p>
+
+		<input type="number" id="num1">
+		<input type="number" id="num2"> 
+		<button onclick="add()">Addition</button>
+		<button onclick="sub()">Subtract</button>
+		<button onclick="multie()">Multiplication</button>
+		<button onclick="div()">Division</button>
+	
+	<p id="demo"></p>
+	<script>
+		let n1;
+		let n2;
+		
+		function add() {
+			getData();
+			let addition = n1+n2;
+			 printData(addition);
+			}
+             function sub(){
+             	getData();
+             	let subtract=n1-n2;
+             	printData(subtract);
+             }
+             function multi(){
+             	getData();
+             	let multiply=n1*n2;
+             	printData(multiply);
+             }
+             function div(){
+             	getData();
+             	let divide=n1*n2;
+             	printData(divide);
+             }
+             function getData(){
+             	n1 = Number(document.getElementById("num1").value);
+			n2 = Number(document.getElementById("num2").value);
+		}
+		funct
+             }
+
+</head>
+</body>
+</html>>
