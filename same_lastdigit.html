@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Same Last Digit</title>
+</head>
+<body>
+	<p>Check the both numbers have same last digit or not.</p>
+	<p id="demo"></p>
+	<script>
+		let num1 = 105;
+		let num2 =205;
+		let x,y;
+
+		x = num1%10;
+		y = num2%10;
+
+		if(x==y) {
+			document.getElementById("demo").innerHTML = num1 +" , "+ num2 +" Both numbers have same last digit."
+		} else {
+			document.getElementById("demo").innerHTML = num1 +" , "+ num2 +" Both numbers have different last digit."
+		}
+	</script>
+</body>
+</html>
