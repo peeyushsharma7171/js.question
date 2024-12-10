@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Number of Occurence</title>
+</head>
+<body>
+	<p>This will print the how many time a particular character is used.</p>
+	<p id="demo"></p>
+	<script>
+		const string = "Hi Hitesh, How are you? How have you been?";
+
+		const numbers = string.match(/H/ig);
+		const times = numbers.length;
+
+		document.getElementById("demo").innerHTML = numbers +" "+ times;
+	</script>
+</body>
+</html>
