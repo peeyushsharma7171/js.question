@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Count Vowels</title>
+</head>
+<body>
+	<p>Count vowels present in a string.</p>
+	<p id="demo"></p>
+	<p id="demo1"></p>
+	<p id="demo2"></p>
+
+	<script>
+		const string = "Hi Jhon, How are you? How have you been?";
+
+		const numbers1 = string.match(/a/ig);
+		const numbers2 = string.match(/e/ig);
+		const numbers3 = string.match(/i/ig);		
+		const numbers4 = string.match(/o/ig);
+		const numbers5 = string.match(/u/ig);
+		const times = numbers1.concat(numbers2,numbers3,numbers4,numbers5);
+
+
+		document.getElementById("demo").innerHTML = string;
+		document.getElementById("demo1").innerHTML = times.length;
+		document.getElementById("demo2").innerHTML = times;
+	</script>
+</body>
+</html>
