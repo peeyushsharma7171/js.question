@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sort Words</title>
+</head>
+<body>
+	<p>Sorting words in an Array</p>
+	<p id="demo"></p>
+
+	<script>
+		let string = "A Quick Brown Fox Jumped Over A Lazy Dog";
+	//	const words = ["Cat","Bat","Apple","Elephant","Dog"];
+
+		const array = string.split(" ");
+		const sorted = array.toSorted();
+
+		document.getElementById("demo").innerHTML = sorted;
+	</script>
+</body>
+</html>
