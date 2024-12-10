@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First Letter Uppercase</title>
+</head>
+<body>
+	<p>Make the first letter Uppercase in a string.</p>
+	<p id="demo1"></p>
+	<p id="demo2"></p>
+
+	<script>
+		let string = "Hello world! My name is peeyush Sharma."
+		let newArray = string.split(" ");
+	    newArray[0] = newArray[0].toUpperCase();
+		let newString = newArray.join(" ");
+
+		document.getElementById("demo1").innerHTML = string ;
+		document.getElementById("demo2").innerHTML = newString ;
+	</script>
+</body>
+</html>
