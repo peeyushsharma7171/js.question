@@ -29,4 +29,14 @@
 28. JavaScript Program to Shuffle Deck of Cards
 29. JavaScript Program to Display Fibonacci Sequence Using Recursion
 30. JavaScript Program to Find Factorial of Number Using Recursion
+ 31. JavaScript Program to Convert Decimal to Binary
+32. JavaScript Program to Find ASCII Value of Character
+33. JavaScript Program to Check Whether a String is Palindrome or Not
+34. JavaScript Program to Sort Words in Alphabetical Order
+35. JavaScript Program to Replace Characters of a String
+36. JavaScript Program to Reverse a String
+37. JavaScript Program to Create Objects in Different Ways
+38. JavaScript Program to Check the Number of Occurrences of a Character in the String
+39. JavaScript Program to Convert the First Letter of a String into UpperCase
+40. JavaScript Program to Count the Number of Vowels in a String
  
