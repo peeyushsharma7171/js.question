@@ -39,4 +39,13 @@
 38. JavaScript Program to Check the Number of Occurrences of a Character in the String
 39. JavaScript Program to Convert the First Letter of a String into UpperCase
 40. JavaScript Program to Count the Number of Vowels in a String
- 
+41. JavaScript Program to Remove a Property from an Object
+42. JavaScript Program to Check Whether a String Starts and Ends With Certain Characters
+43. JavaScript Program to Check if a Key Exists in an Object
+44. JavaScript Program to Clone a JS Object
+45. JavaScript Program to Loop Through an Object
+46. JavaScript Program to Merge Property of Two Objects
+47. JavaScript Program to Count the Number of Keys/Properties in an Object
+48. JavaScript Program to Add Key/Value Pair to an Object
+49. JavaScript Program to Replace All Occurrences of a String
+50. JavaScript Program to Create Multiline Strings
